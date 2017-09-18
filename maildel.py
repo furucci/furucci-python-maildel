@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
+# maildel.py - メールサーバから新しい<keepmail>通を残してメールを削除する
 import getpass,poplib,sys
 
 keepmail = 100
