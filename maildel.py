@@ -16,7 +16,7 @@ if response != 'y':
     sys.exit()
 
 if M.stat()[0] <= keepmail:
-    print('メールサーバ上のメールが100通より少ないため終了します')
+    print('メールサーバ上のメールが'+str(keepmail)+'通より少ないため終了します')
     M.quit()
     sys.exit()
 
