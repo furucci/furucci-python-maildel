@@ -1,0 +1,1 @@
+# furucci-python-maildel
